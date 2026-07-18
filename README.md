@@ -13,10 +13,11 @@ personal self-study hub where I log everything I learn outside of school. Every 
 - [ ] [CS50 AI](https://cs50.harvard.edu/ai/)
 - [ ] [MIT 6.034 - Introduction to Artificial Intelligence](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/)
 - [ ] [CS50 Cybersecurity](https://cs50.harvard.edu/cybersecurity/)
-- [ ] [Google Project Management Certificate](https://www.coursera.org/professional-certificates/google-project-management)
-- [ ] [Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/certification/scrum-fundamentals-certified)
+
 
 ## Certifications
+- [ ] [Google Project Management Certificate](https://www.coursera.org/professional-certificates/google-project-management)
+- [ ] [Scrum Fundamentals Certified (SFC)](https://www.scrumstudy.com/certification/scrum-fundamentals-certified)
 - [ ] [Google Data Analytics](https://www.coursera.org/professional-certificates/google-data-analytics)
 - [ ] [Google AI Essentials](https://www.coursera.org/learn/google-ai-essentials)
 - [ ] [IBM AI Fundamentals](https://skillsbuild.org/college-students/course-catalog/artificial-intelligence-fundamentals)
