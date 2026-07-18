@@ -1,12 +1,8 @@
 # da-maxxing-stats
-A personal learning repo tracking my self-study journey through CS, Python, SQL, AI, Data Science, Cybersecurity, Cloud, and more.
+personal self-study hub where I log everything I learn outside of school. Every folder is a course or topic, and inside each one you'll find my problem sets, notes, and mini projects as I complete them. Progress is tracked below and topics will be updated as I go through each course in their respective readmes in each folder!!
 > I'm not just here for the diploma  I'm here to actually know things !!
 
-# About this Repo
-personal self-study hub where I log everything I learn outside of school. Every folder is a course or topic, and inside each one you'll find my problem sets, notes, and mini projects as I complete them. Progress is tracked below and topics will be updated as I go through each course in their respective readmes in each folder!!
-
 ## Courses & Programs
-
 - [ ] CS50x - Introduction to Computer Science
 - [ ] CS50P - Python
 - [ ] CS50 SQL
@@ -17,7 +13,6 @@ personal self-study hub where I log everything I learn outside of school. Every 
 - [ ] Scrum Fundamentals
 
 ## Certifications
-
 - [ ] Google Data Analytics
 - [ ] Google AI Essentials
 - [ ] IBM AI Fundamentals
@@ -25,11 +20,9 @@ personal self-study hub where I log everything I learn outside of school. Every 
 - [ ] AWS Cloud Practitioner
 
 ## Projects
-
 Personal projects built along the way will live in the Projects folder. Updated as I build them!
 
 ## Tools & Stack
-
 - VS Code
 - Git + GitHub Desktop
 - Python
@@ -37,7 +30,6 @@ Personal projects built along the way will live in the Projects folder. Updated 
 - More added as I learn!
 
 ## Notes
-
 - Courses don't have to be done in order some are flexible
 - Problem sets and exercises are uploaded per folder as completed
 - This repo is public feel free to use it as inspo for your own journey!
