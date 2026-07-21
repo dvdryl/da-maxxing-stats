@@ -3,7 +3,8 @@
 Harvard's intro to CS covering C, Python, algorithms, data structures, SQL, and more.
 
 ## 📋 Topics
-- [ ] Topics coming soon — updating as I go!
+- [ ] Week 0 introduction to CS50 - Scratch
+- [ ] 
 
 ## 📁 Contents
 - Problem sets uploaded as completed
