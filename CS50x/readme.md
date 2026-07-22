@@ -9,7 +9,7 @@ Harvard's intro to CS covering C, Python, algorithms, data structures, SQL, and 
   - Hello world
   - Mario (less) or Mario (more)
   - Cash or Credit
-- [ ] 
+- [ ] updated as i go!
 
 
 ## 📁 Contents
