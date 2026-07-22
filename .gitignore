@@ -1,0 +1,47 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets
+.env
+*.key
+
+# Scratch
+*.sb3
+
+# C
+*.o
+*.out
+a.out
+*.exe
+core
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# SQL
+*.db
+*.sqlite3
+
+# Web / JS
+node_modules/
+dist/
+
+# Flask
+instance/
+flask_session/
+
+# Large media
+*.mp4
+*.mov
+*.zip
