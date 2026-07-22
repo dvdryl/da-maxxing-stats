@@ -3,12 +3,19 @@
 Harvard's intro to CS covering C, Python, algorithms, data structures, SQL, and more.
 
 ## 📋 Topics
-- [ ] Week 0 introduction to CS50 - Scratch
+- [x] Week 0 Introduction to CS50 and basic concepts 
+  - Use Scratch to create Problem Set 0 on Scratch
+- [ ] Week 1 - C
+  - Hello world
+  - Mario (less) or Mario (more)
+  - Cash or Credit
 - [ ] 
+
 
 ## 📁 Contents
 - Problem sets uploaded as completed
 - Notes and key takeaways per topic
+  > Week-number_content (notes/problem set)
 
 ## ✅ Status
 - [x] In Progress
