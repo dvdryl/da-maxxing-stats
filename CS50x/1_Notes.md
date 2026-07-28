@@ -394,3 +394,79 @@ both are examples of what happens when a program's number type can't hold a big 
 - how to write your own functions and understand scope
 - evaluating code by correctness, design, and style
 - types, operators, casting, and why overflow/truncation happen
+
+&nbsp;
+
+## Problem Set 1 - Hello, Mario and Cash
+
+Working through Problem Set 1 (Mario less/more, and Cash) helped reinforce the core building blocks from lecture in a hands-on way.
+
+### Getting user input
+
+- `get_int`, `get_string`, and `get_char` all come from `cs50.h`, not standard C.
+- Each function grabs a specific data type, so picking the right one matters. For example, `get_char` only grabs a single character, so it's the wrong choice for something like a dollar amount or number of cents.
+
+### Re-prompting for valid input (do-while loops)
+
+Used to keep asking the user for input until they give something valid (like a non-negative number).
+
+```c
+int c;
+do
+{
+    c = get_int("Change owed: ");
+}
+while (c < 0);
+```
+
+- The variable needs to be declared before the loop, then assigned to inside the loop body.
+- The `while (condition);` line needs a semicolon at the end, easy to forget, but the code won't compile without it.
+
+### Variable scope
+
+- A variable declared inside `{ }` only exists inside those braces.
+- Redeclaring a variable inside a loop (like writing `int c = ...` a second time inside a do-while) creates a brand new, separate variable that "shadows" the outer one. This causes bugs where the outer variable never actually gets updated.
+
+### for loops vs while loops
+
+- `for` loops work best when the number of repetitions is known ahead of time (e.g. printing a fixed width row in Mario).
+- `while`/`do-while` loops work best when the number of repetitions depends on a condition being checked as you go (e.g. re-prompting for valid input).
+
+### Division and modulo can replace loops
+
+Instead of subtracting a value repeatedly in a loop to count how many times it fits, `/` and `%` can do it in one step:
+
+```c
+coins += c / 25;  // how many quarters fit
+c = c % 25;       // what's left over
+```
+
+- `/` between two ints in C truncates (drops the decimal), so it tells you how many whole times one number fits into another.
+- `%` gives the remainder after that division.
+- This can turn a several line loop into two simple lines, with no loop needed at all.
+
+### Nested loops for 2D shapes
+
+- Printing shapes like pyramids needs a loop inside a loop, an outer loop for each row, inner loops for spaces vs. hashes.
+- Alignment (left vs. right) comes from where the spaces are placed relative to the hashes, not from separate logic for each side.
+
+### Brace and syntax bookkeeping
+
+- An extra or misplaced closing brace `}` can accidentally close `main()` early, leaving code stranded outside the function so it won't compile.
+- Small syntax details (missing semicolons, mismatched braces) are common early bugs worth double checking every time.
+
+### General approach that helped
+
+1. Write pseudocode first, describe the logic in plain steps.
+2. Map each step to a C construct already learned (loop, conditional, function).
+3. Write the code.
+4. Test against edge cases (negative numbers, zero, letters, no input).
+
+### Bugs I actually hit while doing this pset
+
+- Redeclared `c` inside the do-while loop body (`int c = get_int(...)` a second time), which shadowed the outer `c` and left it uninitialized. Fixed by removing the `int` on the second one, since the variable already existed.
+- Forgot the semicolon after `while (c < 0)` in the do-while loop. This is required for do-while specifically and caused a compile error.
+- Left an extra closing brace `}` before `printf`, which closed `main()` early and left `printf` stranded outside the function.
+- Initially used `get_char` for change owed instead of `get_int`, which only grabbed a single character instead of the full number.
+- Tried subtracting coin values in a loop before realizing `/` and `%` could do the same thing in
+- types, operators, casting, and why overflow/truncation happen
