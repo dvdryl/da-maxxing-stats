@@ -2,6 +2,7 @@
 personal self-study hub where I log everything I learn outside of school. Every folder is a course or topic, and inside each one you'll find my problem sets, notes, and mini projects as I complete them. Progress is tracked below with their respective links so you can learn aswell, and topics will be updated as I go through each course in their respective readmes in each folder!!
 > I'm not just here for the diploma,  I'm here to actually know things !!
 
+
 ## Courses & Programs
 - [ ] [CS50x - Introduction to Computer Science](https://cs50.harvard.edu/x/) **1**
 - [ ] [The Missing Semester of Your CS Education (MIT)](https://missing.csail.mit.edu/)
